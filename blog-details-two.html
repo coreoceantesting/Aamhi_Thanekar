@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bunzo - Blog Bootstrap 5 HTML Template</title>
+    <title>Aamhi Thanekar</title>
     <meta name="description" content="Bunzo is one of the most popular blog template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,6 +23,15 @@
 
     <!-- CSS
         ============================================ -->
+        <style>
+            .column {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        </style>
 
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">  -->
@@ -75,7 +84,7 @@
 
     <!--========  header area =========-->
     <header class="header-six">
-        <div class="header-top">
+        <div class="header-top" style="display: none;">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-10 col-md-7">
@@ -98,7 +107,7 @@
                     <div class="col-lg-3 col-4">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/images/logo/logo-5-black.png" alt="" />
+                                <img src="assets/images/logo.png" style="max-width: 17% !important;"  alt="" />
                             </a>
                         </div>
                     </div>
@@ -106,7 +115,7 @@
                         <div class="main-menu-area text-end">
                             <nav class="navigation-menu">
                                 <ul>
-                                    <li class="has-children">
+                                    <!-- <li class="has-children">
                                         <a href="index.html"><span>Home</span></a>
                                         <ul class="submenu">
                                             <li><a href="index-2.html"><span>Home Two</span></a></li>
@@ -115,17 +124,18 @@
                                             <li><a href="index-5.html"><span>Home Five</span></a></li>
                                             <li><a href="index-6.html"><span>Home Six</span></a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
+                                    <li><a href="index.html"><span>Home</span></a></li>
                                     <li>
                                         <a href="about-us.html"><span>About</span></a>
                                     </li>
-                                    <li class="has-children"><a href="category.html"><span>Category</span></a>
+                                    <!-- <li class="has-children"><a href="category.html"><span>Category</span></a>
                                         <ul class="submenu">
                                             <li><a href="category.html"><span>Category List</span></a> </li>
                                             <li><a href="category-grid.html"><span>Category Grid</span></a> </li>
                                         </ul>
-                                    </li>
-                                    <li class="has-children">
+                                    </li> -->
+                                    <!-- <li class="has-children">
                                         <a href="#"><span>Pages</span></a>
                                         <ul class="submenu">
                                             <li><a href="blog-details.html"><span>Blog Details</span></a> </li>
@@ -136,7 +146,7 @@
                                             <li><a href="register.html"><span>Register</span></a> </li>
                                             <li><a href="write-post.html"><span>Write Post</span></a> </li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     <li><a href="contact-us.html"><span>Contact </span></a></li>
                                 </ul>
                             </nav>
@@ -164,19 +174,24 @@
                         <div class="col-lg-12 col-md-12">
                             <div class="blog-details-two-header">
 
-                                <div class="blog-details-two-post-meta">
+                                <div class="blog-details-two-post-meta" style="display: none;">
                                     <span class="blog-details-two-post-author">
                                     By <a href="#">Walter Houston</a>
-                                </span>
+                                    </span>
                                     <span class="post-date">
                                     <a href="#">03 April, 2023</a>
-                                </span>
+                                    </span>
                                     <span>10 min read</span>
                                 </div>
-                                <h2 class="blog-details-two-post-title">Elite Licenser is a software license manager
-                                    plugin for WordPress to protect your product</h2>
+                                <h2 class="blog-details-two-post-title" style="
+                                border: solid 1px darkslateblue;
+                                background: beige;
+                            ">
+                                    <p>3-Level Waste Segregation</p>
+                                    <p>तीन विभागों मे कचरे का वर्गीकरण</p>    
+                                </h2>
 
-                                <div class="blog-details-two-tags">
+                                <div class="blog-details-two-tags" style="display: none;">
                                     <a href="#" class="btn-large wordpress">WordPress</a>
                                     <a href="#" class="btn-large woocommerce">WooCommerce</a>
                                     <a href="#" class="btn-large magento">Magento</a>
@@ -185,100 +200,166 @@
 
                             </div>
                             <div class="blog-details-post-image mt-5  mb-5">
-                                <img src="assets/images/blog/blog-details-2.jpg" alt="">
+                                <img style="border: solid 2px;" src="assets/images/waste.PNG" alt="">
                             </div>
 
                             <div class="blog-details-two-post-text section-space--pb_80">
                                 <div class="col-lg-10 m-auto">
-                                    <h3 class="mb-5 title">Create a custom checkout page in minutes and Increase your sales with WooLentor</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu stry's standard dummy
-                                        text ever since the 1500s when an unknown prnter took a galley of type and scramb has been text ever since them 1500s unknown
-                                        type and scramb led it to make a type specimen book.</p>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem Ipsum, you need
-                                        to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem psum generators on the Internet tend
-                                        predefined chunks as necessary, making this the first true generator on the Internet. It uses dictionary of over Latin words combnes
-                                        with a handful of model sentence structures.</p>
-
-                                    <div class="table-content mb-5">
-                                        <h3 class="title mb-30">Table of Content:</h3>
-
-                                        <ul class="table-content-list">
-                                            <li class="table-content-item"> It was popularised in the 1960s with the release of Letraset sheets containing</li>
-                                            <li class="table-content-item"> Many desktop publishing packages and web page editors now use</li>
-                                            <li class="table-content-item"> It was popularised in the 1960s with the release of Letraset sheets containing</li>
-                                            <li class="table-content-item"> Many desktop publishing packages and web page editors now use</li>
-                                            <li class="table-content-item"> It was popularised in the 1960s with the release of Letraset sheets containing</li>
-                                        </ul>
-
-                                    </div>
-
-                                    <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem Ipsum, you need
-                                        to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem psum generators on the Internet tend
-                                        predefined chunks as necessary, making this the first true generator on the Internet. It uses dictionary of over Latin words combnes
-                                        with a handful of model sentence structures.
-                                    </p>
-                                    <h3 class="title mb-3">Our company fails the real world test in all kinds of ways.</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu stry's standard dummy
-                                        text ever since the 1500s when an unknown prnter took a galley of type and scramb has been text ever since them 1500s unknown
-                                        type and scramb led it to make a type specimen book.</p>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem Ipsum, you need
-                                        to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem psum generators on the Internet tend
-                                        predefined chunks as necessary, making this the first true generator on the Internet. It uses dictionary of over Latin words combnes
-                                        with a handful of model sentence structures.</p>
-
-                                    <div class="blog-details-image mt-5  mb-5">
-                                        <img src="assets/images/blog/blog-details-3.jpg" alt="">
-                                    </div>
-
-                                    <h3 class="title mb-20">Well, that wasn’t the only unconventional thing 37Signals did
-                                        on their way up.</h3>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem Ipsum, you need
-                                        to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem psum generators on the Internet tend
-                                        predefined chunks as necessary, making this the first true generator on the Internet. It uses dictionary of over Latin words combnes
-                                        with a handful of model sentence structures.
-                                    </p>
-
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem Ipsum, you need
-                                        to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem psum generators on the Internet tend
-                                        predefined chunks as necessary, making this the first true generator on the Internet. It uses dictionary of over Latin words combnes
-                                        with a handful of model sentence structures.</p>
+                                    <h3 class="mb-5 title text-center"> Welcome to trainer course on</h3>
+                                    <h3 class="mb-5 title text-center">3 level Waste Segregation (Follow the monkey)</h3>
+                                    <p class="text-center">फॅालो द मंकी प्रकल्प के ट्रेनर कोर्स में आपका स्वागत है ।</p>
+                                    <br>
 
                                     <blockquote class="blockquote-box-two">
-                                        <h4><span class="bold">2,83k People</span> Receive Our Weekly
-                                            WordPress Related Newsletter.</h4>
+                                        <h4>About the course / कोर्स की जानकारी</h4>
                                     </blockquote>
 
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem Ipsum, you need
-                                        to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem psum generators on the Internet tend
-                                        predefined chunks as necessary, making this the first true generator on the Internet. It uses dictionary of over Latin words combnes
-                                        with a handful of model sentence structures.</p>
-
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
-                                        humour, or randomised words which don't look even slightly believable. If you are going to use a passage of orem Ipsum, you need
-                                        to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem psum generators on the Internet tend
-                                        predefined chunks as necessary, making this the first true generator on the Internet. It uses dictionary of over Latin words combnes
-                                        with a handful of model sentence structures.</p>
-
-                                    <div class="blog-details-two-share-area">
-                                        <div class="share-title">
-                                            <h4 class="title">Share this article:</h4>
+                                    <div class="card-deck">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title">To Learn:</h5>
+                                            <p class="card-text"><ul>
+                                                <li><strong>What is Waste ?</strong></li>
+                                                <li><strong>Types of Waste</strong></li>
+                                                <li><strong>Waste Segregation</strong></li>
+                                            </ul></p>
+                                          </div>
                                         </div>
-                                        <ul class="social-share-area">
-                                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                            <li><a href="#"><i class="icofont-skype"></i></a></li>
-                                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title">To Educate:</h5>
+                                            <p class="card-text"> <ul>
+                                                <li><strong>Yourself</strong></li>
+                                                <li><strong>Types of Waste</strong> - <em>Family</em></li>
+                                                <li><strong>Waste Segregation</strong> - <em>Community</em></li>
+                                            </ul></p>
+                                          </div>
+                                        </div>
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title">अ] क्या सीखेंगे:</h5>
+                                            <p class="card-text"><ul>
+                                                <li><strong>कचरा क्या है ?</strong></li>
+                                                <li><strong>कचरे के प्रकार</strong></li>
+                                                <li><strong>कचरे का वर्गीकरण</strong></li>
+                                            </ul></p>
+                                          </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-body">
+                                              <h5 class="card-title">ब] किन्हे सिखाएँगे:</h5>
+                                              <p class="card-text"><ul>
+                                                <li><strong>खुद सीखना</strong></li>
+                                                <li><strong>कचरे के प्रकार</strong> - <em>परिवार को सीखना</em></li>
+                                                <li><strong>कचरे का वर्गीकरण</strong> - <em>अन्य लोगों को सीखना</em></li>
+                                            </ul></p>
+                                            </div>
+                                          </div>
+
+                                      </div>
+                                      <br>
+
+                                    <div class="table-content mb-5">
+                                        <h3 class="title mb-30">Steps to becoming a trainer /
+                                            ट्रेनर बनने की तैयारी</h3>
+
+                                        <ul class="table-content-list">
+                                            <li class="table-content-item"> Step 1:  Watch videos to get educated and trained /  विडिओ देखकर जानकारी प्राप्त और ट्रेनर बने।</li>
+                                            <li class="table-content-item"> Step 2: Learn to use teaching tools & resource material / ट्रेनिंग के साधनों &रीसोर्स मटिरियल का उपयोग करना सीखे ।</li>
+                                            <li class="table-content-item"> Step 3: Get Certified. / प्रमाणपत्र  प्राप्त  ।</li>
+                                            <li class="table-content-item"> Step 4: Role as a Trainer. / ट्रेनर की भुमिका ।</li>
+                                            <li class="table-content-item"> Step 5: Community interaction / लोगों के साथ संवाद ।</li>
                                         </ul>
+
                                     </div>
+                                    <h3 class="title mb-30">Let's Begin / चलिए, शुरूवात करते है ।</h3>
 
+                                    <h3 class="title mb-30">Step 1: Educational videos / जानकारी के विडिओ</h3>
+                                    <p><strong>Introductory video:</strong> <a href="https://drive.google.com/file/d/12P8gtybnbA3baApvu3HP2y_SHVpyWel7/view">Click Here</a></p>
+                                    
+                                    <div class="card border-info text-center">
+                                        <div class="card-header">
+                                           <strong>Module 1</strong>  
+                                        </div>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Importance of Waste Segregation</h5>
+                                          <p class="card-text">कचरे के वर्गीकरण का महत्त्व ।</p>
+                                          <a href="https://drive.google.com/file/d/174n2xh7Hb_OfALGRSP5sDZ9TE0DQ6g48/view" class="btn btn-primary">Click Here</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="card border-info text-center">
+                                        <div class="card-header">
+                                           <strong>Module 2</strong>  
+                                        </div>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Wet Waste Segregation</h5>
+                                          <p class="card-text">गिले कचरे का वर्गीकरण ।</p>
+                                          <a href="https://drive.google.com/file/d/1RKBFP1dRFwe_ClgJ-WFIv9Ll-BqmoHiH/view" class="btn btn-primary">Click Here</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="card border-info text-center">
+                                        <div class="card-header">
+                                           <strong>Module 3</strong>  
+                                        </div>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Dry Waste Segregation</h5>
+                                          <p class="card-text">  सूखा कचरे का वर्गीकरण ।</p>
+                                          <a href="https://drive.google.com/file/d/1Gc8npuf_LSsbq5LeDjsWijfrc8Ci8J1w/view" class="btn btn-primary">Click Here</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="card border-info text-center">
+                                        <div class="card-header">
+                                           <strong>Module 4</strong>  
+                                        </div>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Domestic Hazardous & Sanitary waste segregation</h5>
+                                          <p class="card-text">घरेलु घातक कचरा & सेनेटरी कचरे का वर्गीकरण ।</p>
+                                          <a href="https://drive.google.com/file/d/1WUfydj_5I7RaH1UP0lfT22Xe6VDE3l23/view" class="btn btn-primary">Click Here</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <p><strong>Course Tips:</strong> <a href="https://drive.google.com/file/d/1aC-xKvKg587yjZdtd9enllg1C-BP_Rqm/view">Click Here</a></p>
 
+                                    <h3 class="title mb-30">Step 2: Teaching Tools for conducting course / ट्रेनिंग के साधनों का उपयोग ।</h3>
+                                    <strong>A]   Hand held Flip chart : For door to door / Smaller Audience</strong>
+                                    <p>फ्लिपचार्ट साधन: घर-घर / छोटे दर्शक के लिए ।</p>
+
+                                    <p><strong>Download / डाउनलोड:</strong> <a href="https://drive.google.com/file/d/1vpZx3nIwzohQt2hA9VNAXJb1OEwoHKGu/view">3 level Waste Segregation Flipchart  ३ विभागों मे कचरे का वर्गीकरण
+                                        फ्लिपचार्ट</a></p>
+
+                                        <p><strong>Watch videos to use flipchart / </strong> विडियो देखकर फ्लिपचार्ट उपयोग करना सिखे</p>
+
+                                        <ul>
+                                            <li><a style="border-bottom: solid;" href="https://www.youtube.com/watch?v=YcZn5ILGejU&feature=youtu.be&ab_channel=RNisargFoundation">In Hindi</a></li>
+                                            <li><a style="border-bottom: solid;" href="https://www.youtube.com/watch?v=Ax1RnQwB9J4&ab_channel=RNisargFoundation">In Marathi</a></li>
+                                        </ul>
+                                        <br>
+                                        <p><strong>B] Power Point Presentation : for large / online audience / पावरपॉइंट प्रेजेंटेशन: ऑनलाइन / बड़े दर्शक के लिए जहाँ प्रोजेक्टर, स्क्रीन & माइक उपलब्ध हो ।</strong></p>
+                                        <p><strong>Download :</strong> <a style="border-bottom: solid;" href="https://docs.google.com/presentation/d/1rhfPRQkaAsc9p2gyK6qc8roNyDFG5Ho0/edit#slide=id.p1"> Power Point Presentation /   पावरपॉइंट प्रेजेंटेशन </a> </p>
+
+                                        <p><strong>Extra videos for use</strong></p>
+
+                                        <p><strong>कोर्स के दौरान पावरपॉइंट के साथ वीडियो का इस्तेमाल करे ।</strong></p>
+
+                                        <ul>
+                                            <li>
+                                                <strong> 1. <a href="https://drive.google.com/file/d/1conI1Gv84xRNjFJ4cnYADig2oadq0mFq/view" style="border-bottom: solid;">Satya Mave Jayate  To sensitize on problems of waste management / सत्य मेव जयते  - लोगो को कचरे के प्रति संवेदनशील बनाना । </a>  </strong>
+                                            </li>
+                                            <li>
+                                                <strong> 2. <a href="https://drive.google.com/file/d/1lEmC_j0iabsth4hOBnCJTeqiqTgitSv4/view" style="border-bottom: solid;">Alag karo : Why to do 3 level waste segregation ? /   अलग करो - तिन स्तर पर कचरे का वर्गीकरण क्यो करना है ? </a>  </strong>
+                                            </li>
+                                            <li>
+                                                <strong> 3. <a href="https://drive.google.com/file/d/1qfRPzUZ1w-auH92JysaLFJJmMcweq_6R/view" style="border-bottom: solid;">Be the change : To inspire audience / बी द चेंज: दर्शकों को  प्रेरित करना । </a>  </strong>
+                                            </li>
+                                            <li>
+                                                <strong> 4. <a href="https://drive.google.com/file/d/1KB7s0JixrZjJYFxyL5n8OJIZdgnIVNVD/view" style="border-bottom: solid;"> National Anthem : to sensitize on lives of sanitation workers /  राष्ट्रीय गान : स्वच्छता कर्मचारी के प्रति संवेदनशील बनाना । </a>  </strong>
+                                            </li>
+                                        </ul>
+                                        <br>
                                 </div>
                             </div>
                         </div>
@@ -309,10 +390,9 @@
                             <div class="swiper-slide">
                                 <!-- Single Most Populer Item Start -->
                                 <div class="single-most-populer-item">
-                                    <a href="#!" class="most-populer-thum">
-                                        <img src="assets/images/banners/02-special-banner.jpg" alt="">
-                                    </a>
-                                    <div class="most-populer-content">
+                                    
+                                    <iframe frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay" width="382" height="255" src="https://onedrive.live.com/embed?cid=9A845E01F40F2086&amp;resid=9A845E01F40F2086!259&amp;authkey=AKX_0Ru_YhLEhLk&amp;autoplay=1"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
                                         <div class="most-populer-post-author">
                                             By <a href="#">Andrew Hoffman</a>
                                         </div>
@@ -321,8 +401,8 @@
                                         </h3>
                                         <div class="most-populer-post-meta">
                                             <span class="post-date">
-                                        <a href="#">03 April, 2023</a>
-                                    </span>
+                                            <a href="#">03 April, 2023</a>
+                                            </span>
                                             <span>10 min read</span>
                                         </div>
                                     </div>
@@ -331,10 +411,8 @@
                             <div class="swiper-slide">
                                 <!-- Single Most Populer Item Start -->
                                 <div class="single-most-populer-item">
-                                    <a href="#!" class="most-populer-thum">
-                                        <img src="assets/images/banners/03-special-banner.jpg" alt="">
-                                    </a>
-                                    <div class="most-populer-content">
+                                    <iframe frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay" width="382" height="255" src="https://onedrive.live.com/embed?cid=9A845E01F40F2086&amp;resid=9A845E01F40F2086!264&amp;authkey=ADBvc7v29wimB5w&amp;autoplay=1"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
                                         <div class="most-populer-post-author">
                                             By <a href="#">Andrew Hoffman</a>
                                         </div>
@@ -353,10 +431,8 @@
                             <div class="swiper-slide">
                                 <!-- Single Most Populer Item Start -->
                                 <div class="single-most-populer-item">
-                                    <a href="#!" class="most-populer-thum">
-                                        <img src="assets/images/banners/04-special-banner.jpg" alt="">
-                                    </a>
-                                    <div class="most-populer-content">
+                                    <iframe frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay" width="382" height="255" src="https://onedrive.live.com/embed?cid=9A845E01F40F2086&amp;resid=9A845E01F40F2086!263&amp;authkey=AGhUfnX_Om64Geg&amp;autoplay=1"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
                                         <div class="most-populer-post-author">
                                             By <a href="#">Andrew Hoffman</a>
                                         </div>
@@ -372,14 +448,202 @@
                                     </div>
                                 </div><!-- Single Most Populer Item End -->
                             </div>
+
+                            <div class="swiper-slide">
+                                <!-- Single Most Populer Item Start -->
+                                <div class="single-most-populer-item">
+                                    <iframe frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay" width="382" height="255" src="https://onedrive.live.com/embed?cid=9A845E01F40F2086&amp;resid=9A845E01F40F2086!262&amp;authkey=AAkomlqnYsoFXKw&amp;autoplay=1"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
+                                        <div class="most-populer-post-author">
+                                            By <a href="#">Andrew Hoffman</a>
+                                        </div>
+                                        <h3 class="title"><a href="#!">Create beautiful designs that
+                                                will help convert more...</a>
+                                        </h3>
+                                        <div class="most-populer-post-meta">
+                                            <span class="post-date">
+                                        <a href="#">03 April, 2023</a>
+                                    </span>
+                                            <span>10 min read</span>
+                                        </div>
+                                    </div>
+                                </div><!-- Single Most Populer Item End -->
+                            </div>
+
+                            <div class="swiper-slide">
+                                <!-- Single Most Populer Item Start -->
+                                <div class="single-most-populer-item">
+                                    <iframe frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay" width="382" height="255" src="https://onedrive.live.com/embed?cid=9A845E01F40F2086&amp;resid=9A845E01F40F2086!250&amp;authkey=ADfh6ieIwbs1jb0&amp;autoplay=1"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
+                                        <div class="most-populer-post-author">
+                                            By <a href="#">Andrew Hoffman</a>
+                                        </div>
+                                        <h3 class="title"><a href="#!">Create beautiful designs that
+                                                will help convert more...</a>
+                                        </h3>
+                                        <div class="most-populer-post-meta">
+                                            <span class="post-date">
+                                        <a href="#">03 April, 2023</a>
+                                    </span>
+                                            <span>10 min read</span>
+                                        </div>
+                                    </div>
+                                </div><!-- Single Most Populer Item End -->
+                            </div>
+
+                            <div class="swiper-slide">
+                                <!-- Single Most Populer Item Start -->
+                                <div class="single-most-populer-item">
+                                    <iframe frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay" width="382" height="255" src="https://onedrive.live.com/embed?cid=9A845E01F40F2086&amp;resid=9A845E01F40F2086!251&amp;authkey=AJfEwuZzKu0MvKI&amp;autoplay=1"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
+                                        <div class="most-populer-post-author">
+                                            By <a href="#">Andrew Hoffman</a>
+                                        </div>
+                                        <h3 class="title"><a href="#!">Create beautiful designs that
+                                                will help convert more...</a>
+                                        </h3>
+                                        <div class="most-populer-post-meta">
+                                            <span class="post-date">
+                                        <a href="#">03 April, 2023</a>
+                                    </span>
+                                            <span>10 min read</span>
+                                        </div>
+                                    </div>
+                                </div><!-- Single Most Populer Item End -->
+                            </div>
+
+                            <div class="swiper-slide">
+                                <!-- Single Most Populer Item Start -->
+                                <div class="single-most-populer-item">
+                                    <iframe frameborder="0" scrolling="no" allowfullscreen="true" allow="autoplay" width="382" height="255" src="https://onedrive.live.com/embed?cid=9A845E01F40F2086&amp;resid=9A845E01F40F2086!252&amp;authkey=AMt9AZB_rMz5MLA&amp;autoplay=1"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
+                                        <div class="most-populer-post-author">
+                                            By <a href="#">Andrew Hoffman</a>
+                                        </div>
+                                        <h3 class="title"><a href="#!">Create beautiful designs that
+                                                will help convert more...</a>
+                                        </h3>
+                                        <div class="most-populer-post-meta">
+                                            <span class="post-date">
+                                        <a href="#">03 April, 2023</a>
+                                    </span>
+                                            <span>10 min read</span>
+                                        </div>
+                                    </div>
+                                </div><!-- Single Most Populer Item End -->
+                            </div>
+
+                            <div class="swiper-slide">
+                                <!-- Single Most Populer Item Start -->
+                                <div class="single-most-populer-item">
+                                    <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Wet Waste Management" width="382" height="255" src="https://www.youtube.com/embed/PVePUBUymWo?modestbranding=1&amp;rel=0&amp;enablejsapi=1&amp;autoplay=1&amp;origin=https%3A%2F%2Fsway.office.com&amp;widgetid=1" id="widget2"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
+                                        <div class="most-populer-post-author">
+                                            By <a href="#">Andrew Hoffman</a>
+                                        </div>
+                                        <h3 class="title"><a href="#!">Create beautiful designs that
+                                                will help convert more...</a>
+                                        </h3>
+                                        <div class="most-populer-post-meta">
+                                            <span class="post-date">
+                                        <a href="#">03 April, 2023</a>
+                                    </span>
+                                            <span>10 min read</span>
+                                        </div>
+                                    </div>
+                                </div><!-- Single Most Populer Item End -->
+                            </div>
+
+                            <div class="swiper-slide">
+                                <!-- Single Most Populer Item Start -->
+                                <div class="single-most-populer-item">
+                                    <iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Housekeeping Awareness" width="382" height="255" src="https://www.youtube.com/embed/YuBVN0GO2Pk?modestbranding=1&amp;rel=0&amp;enablejsapi=1&amp;autoplay=1&amp;origin=https%3A%2F%2Fsway.office.com&amp;widgetid=3" id="widget4"></iframe>
+                                    <div class="most-populer-content" style="display: none;">
+                                        <div class="most-populer-post-author">
+                                            By <a href="#">Andrew Hoffman</a>
+                                        </div>
+                                        <h3 class="title"><a href="#!">Create beautiful designs that
+                                                will help convert more...</a>
+                                        </h3>
+                                        <div class="most-populer-post-meta">
+                                            <span class="post-date">
+                                        <a href="#">03 April, 2023</a>
+                                    </span>
+                                            <span>10 min read</span>
+                                        </div>
+                                    </div>
+                                </div><!-- Single Most Populer Item End -->
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Related Post Area End -->
+            <br>
+            <div class="blog-details-two-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="blog-details-two-post-text section-space--pb_80">
+                                <p><strong>Videos to use for circulation in WhatsApp /social media groups: / व्हाट्सएप/सोशल मीडिया समूहों में प्रसारित करने के लिए वीडियो:</strong></p>
+                                <ul>
+                                    <li><a style="border-bottom: solid;" href="https://www.youtube.com/watch?v=_PMBMC4Cc3s&ab_channel=RNisargFoundation">3- Level Waste Segregation  / कचरे का 3 विभागों मे वर्गीकरण ।</a></li>
+                                    <li><a style="border-bottom: solid;" href="https://www.youtube.com/shorts/vtG1N2_yX1Q">Wet Waste Segregation / गिले कचरे का अलग वर्गीकरण ।</a></li>
+                                    <li><a style="border-bottom: solid;"  href="https://www.youtube.com/watch?v=PVePUBUymWo&ab_channel=RNisargFoundation">Wet Waste Management / गिले कचरे का व्यवस्थापन ।</a></li>
+                                    <li><a style="border-bottom: solid;" href="https://www.youtube.com/shorts/b7YpnRO5z0w">Domestic Hazardous Waste  / घरेलु घातक कचरा ।</a></li>
+                                    <li><a style="border-bottom: solid;" href="https://www.youtube.com/watch?v=YuBVN0GO2Pk&ab_channel=RNisargFoundation">Housekeeping awareness video / स्वच्छता कर्मचारी के लिए वीडियो</a></li>
+                                </ul>
+                                <br>
+                                <p><strong>Posters of 3 level waste segregation : for circulation in WhatsApp groups and for display / ३ विभागों मे कचरे का वर्गीकरण के लिए पोस्टर : व्हाट्सएप ग्रुपों में प्रसारित करने और प्रदर्शित करने के लिए ।</strong></p>
+                                <p><strong><a style="border-bottom: solid;" href="https://drive.google.com/file/d/1_mDZ0oaM01a3GPlRfPyc1PRvPrD2gPkc/view">3-Level Waste Segregation Poster  /  ३ विभागों मे कचरे का वर्गीकरण  पोस्टर</a></strong></p>
+                                <br>
+                                <h3 class="text-center"><strong>Step 3 : Evaluation and Certification / मुल्यमापन और प्रमाणपत्र</strong></h3><br>
+                                <p>Self evaluate and get certified as FTM 3-Level Waste Segregation Trainer <a style="border-bottom: solid;" href="https://docs.google.com/forms/d/e/1FAIpQLSd45_Z_CdQmWALRtcfHmaxx0qRX4HMeUg5qxwvJ5fgEUWhHtA/viewform">Click Here</a></p>
+                                <p>लिंकपर जाकर मुल्यमापन करके प्रमाणपत्र प्राप्त करे।  <a style="border-bottom: solid;" href="https://docs.google.com/forms/d/e/1FAIpQLSd45_Z_CdQmWALRtcfHmaxx0qRX4HMeUg5qxwvJ5fgEUWhHtA/viewform">यहा क्लिक करे ।</a></p>
+
+                                <h3 class="text-center"><strong>Step 4 : Role as a Trainer /  ट्रेनर  की भूमिका</strong></h3><br>
+                                <p>1. Create Awareness in your family, society, and community.आपके घरवालों, सोसायटी तथा बस्ती मे जनजागृती करे।</p>
+                                <p>2. Your work will impact the community ,help us document by sharing the following details of
+                                    households educated by you.
+                                    
+                                    आपके काम का फायदा कितने लोगो को हुवा यह जानने के लिए डिटेल शेयर करे।</p>
+                                    <p>a)Society Name    b) Address      c) Number of the household   d) Photos.
+
+                                        a) सोसायटी का नाम      b) पता     c) कितने घरोको जागरूक किया  d) फोटो</p>
+                                        <p>Details to be shared via Google link. <a style="border-bottom: solid;" href="https://docs.google.com/forms/d/e/1FAIpQLSfwHgBGu7vGHEMSS-mzgKNBQnHGrMQly5YpRFsJPh7RTCEMXw/viewform">Click Here </a><br>
+
+                                            जानकारी भेजने की लिंक । <a style="border-bottom: solid;" href="https://docs.google.com/forms/d/e/1FAIpQLSfwHgBGu7vGHEMSS-mzgKNBQnHGrMQly5YpRFsJPh7RTCEMXw/viewform">यहा क्लिक करे ।</a></p>
+                                            <br>
+                                            <h3 class="text-center"><strong>Step 5 : Community Interaction / लोगों के साथ संवाद</strong></h3><br>
+                                            <ul>
+                                                <li>We will be happy if you share your work with us and like-minded people. Link to join:
+                                                    <a style="border-bottom: solid;" href="https://www.facebook.com/groups/232211333157530/">Facebook Community .</a></li>
+                                                    <li>
+                                                        आपका काम देखने मे हमे खुशी मिलेगी। फेसबुक पर हमारे साथ जुडे ।
+                                                        लिंक : <a style="border-bottom: solid;" href="https://www.facebook.com/groups/232211333157530/">Facebook Community.</a>
+                                                    </li>
+                                            </ul>
+                                            <br>
+                                            <h3 class="text-center"><strong>Extra Resource Material for knowledge / ज्ञान के
+                                                लिए अतिरिक्त  सामग्री</strong></h3><br>
+                                                <ul>
+                                                    <li><a style="border-bottom: solid;" href="https://www.2bin1bag.in/video-reel">https://www.2bin1bag.in/video-reel</a></li>
+                                                    <li><a style="border-bottom: solid;" href="https://www.saahas.org/resources/videos/saahas-videos">https://www.saahas.org/resources/videos/saahas-videos</a></li>
+                                                    <li><a style="border-bottom: solid;" href="https://www.soilandhealth.in/diy-composting/">https://www.soilandhealth.in/diy-composting/</a></li>
+                                                    <li><a style="border-bottom: solid;" href="https://www.swmrt.com/_files/ugd/c1bf75_cbf4a8a70eee4f8fb682e0839e89ead0.pdf">https://www.swmrt.com/_files/ugd/c1bf75_cbf4a8a70eee4f8fb682e0839e89ead0.pdf</a></li>
+                                                    <li><a style="border-bottom: solid;" href="https://www.youtube.com/watch?v=XrrnPaBS6xk&">https://www.youtube.com/watch?v=XrrnPaBS6xk&</a></li>
+                                                    <li><a style="border-bottom: solid;" href="https://www.youtube.com/watch?v=Y1yB0fNCm_4&">https://www.youtube.com/watch?v=Y1yB0fNCm_4&</a></li>
+                                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
 
             <!-- Comment Area Start -->
-            <div class="comment-area section-space--pt_60 section-space--pb_100">
+            <div class="comment-area section-space--pt_60 section-space--pb_100" style="display: none;">
                 <div class="container">
 
 
@@ -532,7 +796,7 @@
     <!--======  footer area =======-->
     <footer class="footer-area footer-six">
 
-        <div class="footer-top-area">
+        <div class="footer-top-area" style="display: none;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -560,19 +824,19 @@
                         <div class="footer-widget">
                             <div class="footer-logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logo/logo-4.png" alt="">
+                                    <img src="assets/images/logo.png" style="max-width: 80%;" alt="">
                                 </a>
                             </div>
-                            <p class="dec-text">Lorem Ipsum is simply dummy text
+                            <!-- <p class="dec-text">Lorem Ipsum is simply dummy text
                                 the printing and typesetting industry
                                 has been the industry's standard
                                 text ever since.
-                            </p>
+                            </p> -->
                             <ul class="footer-socail-share">
-                                <li><a href="#"><i class="icofont-facebook"></i></a></li>
-                                <li><a href="#"><i class="icofont-skype"></i></a></li>
-                                <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                                <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/"><i class="icofont-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i class="icofont-twitter"></i></a></li>
+                                <li><a href="https://in.linkedin.com/"><i class="icofont-linkedin"></i></a></li>
+                                <li><a href="https://in.linkedin.com/"><i class="icofont-skype"></i></a></li>
                             </ul>
                             <div class="button-right-box mt-30">
                                 <a href="#!" class="btn-primary btn-bg-6 btn-large">Share your thinking <i class="icofont-long-arrow-right"></i></a>
@@ -591,11 +855,6 @@
                                 <li><a href="#!">Terms & Conditions</a></li>
                                 <li><a href="#!">Customer Support</a></li>
                                 <li><a href="#!">Course FAQ’s</a></li>
-                                <li><a href="#!">About Us</a></li>
-                                <li><a href="#!">Contact Us</a></li>
-                                <li><a href="#!">Local Print Ads</a></li>
-                                <li><a href="#!">FAQ’s</a></li>
-                                <li><a href="#!">Careers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -611,12 +870,6 @@
                                 <li><a href="#!">Terms & Conditions</a></li>
                                 <li><a href="#!">Customer Support</a></li>
                                 <li><a href="#!">Course FAQ’s</a></li>
-                                <li><a href="#!">About Us</a></li>
-                                <li><a href="#!">Contact Us</a></li>
-                                <li><a href="#!">Local Print Ads</a></li>
-                                <li><a href="#!">FAQ’s</a></li>
-                                <li><a href="#!">Careers</a></li>
-                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-2  col-md-6 col-sm-5">
@@ -630,18 +883,13 @@
                                 <li><a href="#!">Enterprise Hosting</a></li>
                                 <li><a href="#!">Agency Hosting</a></li>
                                 <li><a href="#!">Multisite Hosting</a></li>
-                                <li><a href="#!">WordPress Hosting</a></li>
-                                <li><a href="#!">Magento Hosting</a></li>
-                                <li><a href="#!">Laravel Hosting</a></li>
-                                <li><a href="#!">Joomla Hosting</a></li>
-                                <li><a href="#!">PrestaShop Hosting</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom-area">
+        <div class="footer-bottom-area" style="display: none;">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-7">
